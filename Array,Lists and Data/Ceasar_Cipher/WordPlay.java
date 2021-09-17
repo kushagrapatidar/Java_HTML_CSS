@@ -13,7 +13,6 @@ public class WordPlay {
             if(isVowel(currChar)){str.setCharAt(i,ch);}
         }
         phrase=str.toString();
-        System.out.println(phrase);
         return phrase;
     }
     
